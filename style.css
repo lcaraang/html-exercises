@@ -1,0 +1,52 @@
+h2, h3 {
+  color: #4183C4;
+}
+
+body {
+  margin: 50px;
+}
+
+#navbar {
+  background-color: black;
+  padding: 10px;
+}
+
+nav a {
+  padding: 35px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+[title=info] {
+  border: 1px dotted black;
+}
+
+ul > li {
+  color: red;
+}
+
+.row#exercises {
+  border: 1px dotted black;
+  padding: 5px;
+}
