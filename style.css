@@ -2,28 +2,9 @@ h2, h3 {
   color: #4183C4;
 }
 
-body {
-  margin: 50px;
-}
-
-#navbar {
-  text-align: center;
-  background-color: black;
-  padding: 10px;
-}
-
-nav a {
-  padding: 50px;
-  color: white;
-}
-
 .logo {
   float: left;
   padding: 10px;
-}
-
-.buttons-row {
-  text-align: center;
 }
 
 a[target] {
@@ -34,8 +15,7 @@ ul > li {
   color: red;
 }
 
-.row#exercises {
-  border: 1px dotted black;
-  padding: 5px;
-  margin: 5px;
+.border {
+  margin: 10px 0;
+  padding: 10px;
 }
