@@ -7,12 +7,13 @@ body {
 }
 
 #navbar {
+  text-align: center;
   background-color: black;
   padding: 10px;
 }
 
 nav a {
-  padding: 35px;
+  padding: 50px;
   color: white;
 }
 
@@ -21,25 +22,12 @@ nav a {
   padding: 10px;
 }
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-  margin: 5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.buttons-row {
+  text-align: center;
 }
 
 a[target] {
   background-color: yellow;
-}
-
-[title=info] {
-  border: 1px dotted black;
 }
 
 ul > li {
@@ -49,4 +37,5 @@ ul > li {
 .row#exercises {
   border: 1px dotted black;
   padding: 5px;
+  margin: 5px;
 }
